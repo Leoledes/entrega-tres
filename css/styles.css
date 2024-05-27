@@ -1,0 +1,207 @@
+/* reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* etiquetas para navbar */
+.minavbar-bg{
+    margin:10px 10px;
+    background-color: #BF701D;
+    color: #648484;
+}
+
+.a-hover:hover{
+    background-color: goldenrod;
+    color: black;
+}
+
+/* etiqueta para color de fondo */
+body{
+    background-color: #251612;
+}
+
+/* etiquetas para headers */
+
+
+/* etiquetas para contenidos generales */
+main{
+    color: #8b9381;
+    text-align: center;
+    justify-content: center;
+    font-size: smaller;
+    letter-spacing: 2px;
+}
+main img{
+    height: 100%;
+    width: 100%;
+}
+
+main h1{
+    text-align: center;
+    color: #8b9381;
+}
+
+/* etiquetas para pies de pagina */
+/* etiqueta para banner */
+footer{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #BF701D;
+    color:black;
+    margin: 10px 10px;
+    padding: 5px 5px;
+    align-items: center;
+    justify-content: space-between;    
+    text-align: center;
+}           
+
+/* etiqueta para imagen */
+footer img{
+    width: 50%;
+    height: 50%;
+}
+
+/* etiqueta para menú de lista */          
+footer nav ul{
+    list-style: none;
+}
+
+footer p{
+    margin-left: 70px;
+}
+
+
+/* etiquetas para contenidos pagina principal */
+main .contenedor-pp{        
+    height: 95vh;
+    margin: 20px 20px;         
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    gap: 5px;
+}
+
+/* etiquetas para contenido Pagina 1 */
+.contenedor-p1{
+    height: 160vh;
+    margin: 20px 20px;         
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    gap: 5px;
+}      
+
+/* etiquetas para contenido Pagina 2 */
+.contenedor-p2{
+    height: 120vh;
+    margin: 20px 20px;         
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    gap: 5px;
+}
+
+/* etiquetas para contenido Pagina 3 */
+.contenedor-p3{
+    height: 90vh;
+    margin: 20px 20px;         
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    gap: 5px;
+}
+
+/* etiquetas para contenido Pagina 4 */
+.contenedor-p4{
+    height: 30vh;
+    margin: 20px 20px;         
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    gap: 5px;
+}
+
+    
+/* media queries Pagina Principal*/
+/* Celulares */
+@media screen and (min-width: 390px){
+    main .contenedor-pp{
+        height: 100vh;
+        margin: 10px 10px;
+        font-size: small;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    footer img{
+        width: 40%;
+        height: 40%;
+    }
+}
+
+/* Desktop */
+@media screen and (min-width: 1280px){
+    main .contenedor-pp{
+        height: 70vh;
+        margin: 50px 50px;
+        display: grid;
+        grid-template-columns:repeat(2, 1fr) ;
+        grid-template-rows: repeat(1, 87%) ;
+        font-size: large;
+    }
+
+    main .texto-pp{
+        margin: 50px 20px;
+    }
+
+    footer .contenedor-footer{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    } 
+
+    footer img{
+        height: 10%;
+        width: 10%;
+    }
+}
+
+
+/* medias queries Pagina 1 */
+/* Celulares */
+@media screen and (min-width: 390px){
+    main .contenedor-p1{
+        height: 180vh;
+        margin: 50px 20px;
+        font-size: medium;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    footer img{
+        width: 40%;
+        height: 40%;
+    }
+}
+
+/* Desktop */
+@media screen and (min-width: 1280px){
+    main .contenedor-p1{
+        height: 200vh;
+        margin: 40px 50px;
+        display: grid;
+        grid-template-columns:repeat(2, 1fr) ;
+        grid-template-rows: repeat(3, 1fr) ;
+        justify-content: center;
+        font-size: large;
+        row-gap: 10px;
+    }
+
+    footer{
+        font-size: large;
+    }
+}
