@@ -1,0 +1,25 @@
+//propiedades mixin para grid
+
+@mixin grid{
+    display: grid;
+    text-align: center;
+    justify-content: center;
+    font-size: smaller;
+    letter-spacing: 2px;    
+    margin: $margin-secondary;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    gap: 5px;
+}
+
+@mixin flex{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: $color-menus;
+    color: black;
+    margin: $margin-primary;
+    padding: 5px 5px;
+    align-items: center;
+    justify-content: space-between;    
+    text-align: center;
+}

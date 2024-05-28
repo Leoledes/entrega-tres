@@ -1,0 +1,279 @@
+// media queries Pagina Principal
+// Celulares
+@media screen and (min-width: 390px){
+    main{
+        .contenedor-pp{
+            height: 100vh;
+            margin: 10px 10px;
+            font-size: small;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+    }
+    footer{
+        .img1-foot{
+            width: 40%;
+            height: 40%;
+        }
+    }
+}
+
+// Tablet
+@media screen and (min-width: 768px){
+    main{
+        .contenedor-pp{
+            height:60vh;
+            margin: 50px 50px;
+            display: grid;
+            grid-template-columns:repeat(2, 1fr) ;
+            grid-template-rows: repeat(1, 87%) ;
+            font-size: large;
+        }
+    }
+    footer{
+        .img1-foot{
+            width: 20%;
+            height: 20%;
+        }
+    }
+}
+
+// Desktop
+@media screen and (min-width: 1280px){
+    main{
+        .contenedor-pp{
+            height: 70vh;
+            margin: 50px 50px;
+            display: grid;
+            grid-template-columns:repeat(2, 1fr) ;
+            grid-template-rows: repeat(1, 87%) ;
+            font-size: large;
+        }
+        .texto-pp{
+            margin: 30px 20px;
+        }
+    }
+    footer{
+        .contenedor-footer{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        } 
+        .img1-foot{
+            height: 20%;
+            width: 20%;
+        }
+    }
+}
+
+
+// medias queries Pagina 1
+// Celulares
+@media screen and (min-width: 390px){
+    main{
+        .contenedor-p1{
+            height: 190vh;
+            margin: 50px 20px;
+            font-size: medium;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+    }
+    footer{
+        .img1-foot{
+            width: 40%;
+            height: 40%;
+        }
+    }
+}
+
+// Tablet
+@media screen and (min-width: 768px){
+    main{
+        .contenedor-p1{
+            height: 100vh;
+            margin: 50px 50px;
+            display: grid;
+            grid-template-columns:repeat(2, 1fr) ;
+            grid-template-rows: repeat(3, 1fr) ;
+            font-size: large;
+        }
+    }
+    footer{
+        .img1-foot{
+            width: 18%;
+            height: 18%;
+        }
+    }
+}
+
+// Desktop
+@media screen and (min-width: 1280px){
+main{
+    .contenedor-p1{
+        height: 280vh;
+        margin: 40px 50px;
+        display: grid;
+        grid-template-columns:repeat(2, 1fr) ;
+        grid-template-rows: repeat(3, 1fr) ;
+        justify-content: center;
+        font-size: large;
+        row-gap: 10px;
+    }
+}
+}
+
+// media queries Pagina 2
+// Celulares
+@media screen and (min-width: 390px){
+main{
+    .contenedor-p2{
+        height: 100vh;
+        margin: 10px 10px;
+        font-size: small;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+}
+footer{
+    .img1-foot{
+        width: 40%;
+        height: 40%;
+    }
+}
+}
+
+// Tablet
+@media screen and (min-width: 768px){
+main{ 
+    .contenedor-p2{
+        height: 130vh;
+        margin: 30px 30px;
+        display: flex;
+        font-size: large;
+    }
+}
+footer{
+    .img1-foot{
+        width: 18%;
+        height: 18%;
+    }
+}
+}
+
+// Desktop
+@media screen and (min-width: 1280px){
+main{
+    .contenedor-p2{
+        height: 280vh;
+        margin: 40px 50px;
+        display: flex;
+        font-size: large;
+    }
+}
+}
+
+// media queries Pagina
+// Celulares
+@media screen and (min-width: 390px){
+main{
+    .contenedor-p3{
+        height: 100vh;
+        margin: 10px 10px;
+        font-size: small;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+}
+footer{
+    .img1-foot{
+        width: 40%;
+        height: 40%;
+    }
+}
+}
+
+// Tablet
+@media screen and (min-width: 768px){
+main{
+    .contenedor-p3{
+        height: 100vh;
+        margin: 30px 30px;
+        display: flex;
+        font-size: large;
+    }
+}
+footer{
+    .img1-foot{
+        width: 18%;
+        height: 18%;
+    }
+}
+}
+
+// Desktop
+@media screen and (min-width: 1280px){
+main{
+    .contenedor-p3{
+        height: 200vh;
+        margin: 40px 50px;
+        display: flex;
+        font-size: large;
+    }
+}
+}
+
+// media queries Pagina 4
+// Celulares
+@media screen and (min-width: 390px){
+main{
+    .contenedor-p4{
+        height: 80vh;
+        margin: 10px 10px;
+        font-size: small;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+}
+footer{
+    .img1-foot{
+        width: 40%;
+        height: 40%;
+    }
+}
+}
+
+// Tablet
+@media screen and (min-width: 768px){
+main{
+    .contenedor-p4{
+        height: 60vh;
+        margin: 30px 30px;
+        display: flex;
+        font-size: large;
+    }
+}
+footer{
+    .img1-foot{
+        width: 18%;
+        height: 18%;
+    }
+}
+}
+
+// Desktop
+@media screen and (min-width: 1280px){
+main{
+    .contenedor-p4{
+        height: 60vh;
+        margin: 40px 50px;
+        display: flex;
+        font-size: large;
+    }
+}
+}

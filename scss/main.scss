@@ -1,0 +1,57 @@
+//import
+@import "html/reset";
+@import "html/contenedores";
+@import "html/mediaqueries";
+@import "utilidades/variables";
+@import "utilidades/mixin";
+
+body{
+    background-color: $color-fondo;
+}
+
+// etiquetas para header
+// etiquetas para navbar
+header{
+    .minavbar-bg{
+    margin: $margin-primary;
+    background-color: $color-menus;
+    }
+    .a-hover:hover{
+        background-color: goldenrod;
+    }
+}
+
+//etiquetas para main
+main{
+    color: $color-primary;
+    @include grid;
+    img{
+        height: 100%;
+        width: 100%;
+    }
+    h1{
+        text-align: center;
+        color: $color-primary;
+    }
+}
+
+//etiquetas para footer
+footer{
+    .contenedor-banner{
+        box-shadow: 20px 20px black;
+    }
+    @include flex;
+    img{
+        width: 80%;
+        height: 80%;
+    }
+    nav ul{
+        list-style: none;
+    }
+    p{
+        color: black;
+        margin-left: 70px;
+    }
+}
+
+
